@@ -28,16 +28,16 @@ nav {
 }
 
 @keyframes top {
-  from {}
-  to {}
+  from {translate: 0 0 0;}
+  to {transform:rotate(45deg);translate:0px 35px;} /*translate would be use to move the position to create the 'X' when hovered over*/
 }
 
 @keyframes middle {
-  from {}
-  to {}
+  from {left:0; }
+  to {left:0;background:mediumvioletred;}/*use left as a filler since you want middle line to disappear*/
 }
 
 @keyframes bottom {
-  from {}
-  to {}
+  from {translate:0 0 0}
+  to {transform:rotate(-45deg);translate:0px -30px;}
 }
